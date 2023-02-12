@@ -1,0 +1,11 @@
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/jquery.dataTables.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/dataTables.bootstrap5.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/dataTables.responsive.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/dataTables.buttons.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/buttons.print.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/buttons.html5.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/vfs_fonts.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/pdfmake.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/jszip.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/jquery.fixedcolumdataTables.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/fixedcolum-datatable/dataTables.fixedColumns.min.js"></script>

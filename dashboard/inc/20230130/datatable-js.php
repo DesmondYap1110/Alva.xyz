@@ -1,0 +1,10 @@
+<script src="<?php echo $base_url; ?>/js/datatable/jquery.dataTables.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/dataTables.bootstrap5.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/dataTables.responsive.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/dataTables.buttons.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/buttons.print.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/buttons.html5.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/vfs_fonts.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/pdfmake.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/jszip.min.js"></script>
+<script src="<?php echo $base_url; ?>/js/datatable/datatables.init.js"></script>
