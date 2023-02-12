@@ -86,7 +86,7 @@
                                             <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-12">
                                                 <div class="input-group">
                                                     <label>Operation Manager ID <span>*</span></label>
-                                                    <input type="text" class="form-control" id="operation_manager_id" name="operation_manager_id" maxlength="50" required value="A123333">
+                                                    <input type="text" class="form-control" id="operation_manager_id" name="operation_manager_id" maxlength="50" required value="">
                                                 </div>
                                             </div>
                                             <div class="col-xl-8 col-lg-7 col-md-12 col-sm-12 col-12">
