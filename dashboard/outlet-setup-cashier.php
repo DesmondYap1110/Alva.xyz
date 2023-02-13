@@ -218,7 +218,7 @@ function displaydata($data,$delete,$dbconn)
                 </td>
                 <td>
                     <div id="tb-act-btn-div">
-                        <a href="'.$GLOBALS['base_url_dashboard'].'/outlet-setup-cashier-edit.php?mid='.$data->get_row()[$i]['ID'].'" class="tb-ac-btn" id="tb-ac-btn-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Edit Cashier" ><i class="ri-edit-2-line"></i></a>
+                        <a href="'.$GLOBALS['base_url_dashboard'].'/outlet-setup-cashier-edit.php?mid='.$data->get_row()[$i]['member_ID'].'" class="tb-ac-btn" id="tb-ac-btn-1" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-original-title="Edit Cashier" ><i class="ri-edit-2-line"></i></a>
                         <a href="javascript:void(0);" class="tb-ac-btn" id="tb-ac-btn-2" data-bs-toggle="modal" data-bs-target="#DeleteModal'.$data->get_row()[$i]['ID'].'"><i class="ri-delete-bin-6-line"></i></a>
                     </div>
                 </td>
