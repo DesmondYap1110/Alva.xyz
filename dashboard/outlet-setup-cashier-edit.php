@@ -1,5 +1,8 @@
  <?php
     require_once('script.php');
+    require_once('../php/class/member.class.php');
+    require_once('../php/function/ui.function.php'); //For Button Status
+    
     $pg = "os";
     $subpg = "cashier";
 
