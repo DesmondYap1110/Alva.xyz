@@ -122,11 +122,13 @@
                                             <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-12">
                                                 <div class="input-group">
                                                     <label>Location <span>*</span></label>
-                                                    <select class="form-control js-example-basic-single" id="locate" name="locate" required>
-                                                        <option disabled>Select Location</option>
-                                                        <option value="1" selected>Damansara</option>
-                                                        <option value="2" >ALVAPJ</option>
-                                                        <option value="3" >Melaka</option>
+                                                    <select class="form-control js-example-basic-single" id="location" name="location" required onchange="displayAddress()">
+                                                        <option disabled selected>Select Location</option>
+                                                        <?php
+                                                        //Select Location For Outlet Manager (Optional) 
+                                                        //import from ../php/function/location.function.php
+                                                        selectlocation($ALVADB);
+                                                        ?>
                                                     </select>
                                                 </div>
                                             </div>
