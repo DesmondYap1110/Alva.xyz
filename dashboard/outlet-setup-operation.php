@@ -262,7 +262,6 @@ function getservice($ID,$dbconn)
 
     if($total_row>0)
     {
-        $count=1;
         while($row=mysqli_fetch_assoc($query))
         {
             $display .=servicedecode($row['service_code'])."<br>";

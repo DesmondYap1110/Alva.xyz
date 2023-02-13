@@ -157,6 +157,37 @@ class member
         
     }
 
+    //UPDATE THE DATA WITHOUT GO TO OTHER PAGE WITH CONDITION
+    public function updateonlyc($data,$condition)
+    {
+        //Length of array
+        $len=count($data);
+
+        //array column
+        $column=array_keys($data);
+
+        //array value
+        $value=array_values($data);
+
+        $sql="Update `$this->tbname` SET ";
+
+        for($i=0; $i<$len; $i++)
+        {
+
+            $sql.=" $column[$i] = '$value[$i]'";
+
+            if($i!= ($len-1))
+            {
+                //If array is not at the end no need display comma
+                $sql.=",";
+            }
+        }
+        $sql.=" WHERE $condition";
+
+        $query = mysqli_query($this->dbconn,$sql) or die (mysqli_error($this->dbconn));
+        
+    }
+
     //VERIFY DATA WITH ONE CONDITION
     public function verifydata($column,$data)
     {
@@ -172,6 +203,13 @@ class member
         {
             return 0;//False
         }
+    }
+
+    //Hard Delete
+    public function deletedata($condition)
+    {
+        $sql = "DELETE FROM `$this->tbname` WHERE $condition ";
+        $query = mysqli_query($this->dbconn,$sql) or die (mysqli_error($this->dbconn));
     }
 
     //VERIFY DATA WITH MUTIPLE CONDITION
